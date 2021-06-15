@@ -1,0 +1,3 @@
+[submodule "pierced"]
+	path = pierced
+	url = https://github.com/open-dingtalk/pierced.git
