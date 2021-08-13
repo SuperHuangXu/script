@@ -8,8 +8,8 @@ let cfgPath = ''
 
 if (os.platform() === 'win32') {
   piercedPath = 'windows_64/ding.exe'
-  cfgPath = '"./pierced/windows_64/ding.cfg"'
-  subdomain = '"' + subdomain + '"'
+  cfgPath = '\"./pierced/windows_64/ding.cfg\"'
+  subdomain = '\"' + subdomain + '\"'
 }
 if (os.platform() === 'darwin') {
   piercedPath = 'mac_64/ding'
